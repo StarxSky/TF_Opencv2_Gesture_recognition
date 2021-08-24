@@ -2,7 +2,7 @@
 一个基于tensorflow2.6.0和OpenCV2的手势识别(自制数据集)
 
 
-[images](演示图片/IMG_20210824_185701.jpg)
+![image](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/IMG_20210824_185701.jpg?raw=true)
 
 ## 数据集
 
@@ -16,7 +16,13 @@
 3. 其次运行cv.py启动实时识别
 4. 如果结果不准确可以考虑代码中的epochs的次数(建议：100)
 
-#### 鸣谢
+##### 训练截图
+![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/-1fb6f7631e238c27.png?raw=true)
+![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/-760d7da8022e2d0.png?raw=true)
+![]()
+
+
+##### 鸣谢
 感谢各位大佬们的支持，本人是个高中生在写代码时难免会有些错误还望大家多多支持并在issues里发表意见
 我会认真改进！！
 也希望给个Star![10C0F9CD7ADFCAD62214B11420F25D24](https://user-images.githubusercontent.com/62407841/130604673-0fb083df-b7bc-4d67-9742-72cc223dcc1e.png)
