@@ -1,6 +1,9 @@
 # TF_Opencv2_Gesture_recognition
 一个基于tensorflow2.6.0和OpenCV2的手势识别(自制数据集)
 
+
+[images](演示图片/IMG_20210824_185701.jpg)
+
 ## 数据集
 
 -- 有关于这个数据集目前我只是搞了一小部分，过后我将会不断添加。
