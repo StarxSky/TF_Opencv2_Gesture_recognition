@@ -19,7 +19,6 @@
 ##### 训练截图
 ![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/-1fb6f7631e238c27.png?raw=true)
 ![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/-760d7da8022e2d0.png?raw=true)
-![]()
 
 
 ##### 鸣谢
