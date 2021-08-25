@@ -240,8 +240,8 @@ if __name__ == "__main__":
     print("dataset", db_train)
     network = train_model(db_train)
     
-    network = tf.keras.models.load_model('E:\\aiFile\\model_save\\model.h5')  # 载入模型
-    im = cv.imread("E:\\aiFile\\gesture_picture\\Dataset\\4\\101.jpg")
+    network = tf.keras.models.load_model('D:\\aiFile\\model_save\\model.h5')  # 载入模型
+    im = cv.imread("D:\\aiFile\\gesture_picture\\Dataset\\4\\101.jpg")
     test_image = get_image(im)
     test_pred = network.predict_classes(test_image)
     print("预测值 = ", test_pred)
