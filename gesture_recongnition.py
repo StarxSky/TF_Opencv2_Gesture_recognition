@@ -245,17 +245,17 @@ if __name__ == "__main__":
     test_image = get_image(im)
     test_pred = network.predict_classes(test_image)
     print("预测值 = ", test_pred)
-     while True:
-         ret, frame = capture.read()
-         roi = get_roi(frame, x1, x2, y1, y2)
-         cv.imshow("roi", roi)
-         test_image = get_image(roi)
-         test_pred = network.predict_classes(test_image)
-         print("预测值 = ", test_pred[0])
-         cv.imshow("frame", frame)
-         c = cv.waitKey(50)
-         if c == 27:
-             break
-     cv.waitKey(0)
-     capture.release()
-     cv.destroyAllWindows()
+    while True:
+        ret, frame = capture.read()
+        roi = get_roi(frame, x1, x2, y1, y2)
+        cv.imshow("roi", roi)
+        test_image = get_image(roi)
+        test_pred = network.predict_classes(test_image)
+        print("预测值 = ", test_pred[0])
+        cv.imshow("frame", frame)
+        c = cv.waitKey(50)
+        if c == 27:
+            break
+    cv.waitKey(0)
+    capture.release()
+    cv.destroyAllWindows()
