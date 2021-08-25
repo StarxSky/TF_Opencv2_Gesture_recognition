@@ -19,6 +19,8 @@
 
  安装TF` pip install tensorflow `
  
+ ##### 新！！
+ 本次将所有功能集结到同一个py中！！
 
 ##### 训练截图
 ![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/-1fb6f7631e238c27.png?raw=true)
