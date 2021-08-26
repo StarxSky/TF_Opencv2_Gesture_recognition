@@ -20,13 +20,19 @@
 5. 如果结果不准确可以考虑代码中的epochs的次数(建议：100)
 
 ### 安装TF
- ```pip install tensorflow ```
+ ```
+ pip install tensorflow 
+ ```
 ### Install OpenCV
-``` pip install opencv-python==4.1.2```
+``` 
+pip install opencv-python==4.1.2
+```
 #### 路径导致的错误解决方案
 如果在您的计算机上有D盘请务必按照代码中的文件路径创建！！（盘名可以随意更改！但是文件路径一定要写正确！！
  训练图片的入口：
- ```train_dir = 'D:\\code\\PYTHON\\gesture_recognition\\Dataset' ```
+ ```
+ train_dir = 'D:\\code\\PYTHON\\gesture_recognition\\Dataset'
+ ```
  
  #### 代码中的保存权重的文件请按照如下例子制作注意！！一定要预先创建gestureModel_one.h5文件
  ```
