@@ -3,7 +3,7 @@
 [Download Code](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/archive/refs/heads/main.zip)
 
 ![](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/test.png?raw=true)
-由于这里我的数据集标的怪怪的
+- ↑由于这里我的epochs是5所以难免不准
 ![image](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/IMG_20210824_185701.jpg?raw=true)
 ![](003.png)
 
