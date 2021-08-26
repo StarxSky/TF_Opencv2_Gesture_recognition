@@ -1,5 +1,6 @@
 # TF_Opencv2_Gesture_recognition
 一个基于tensorflow2.6.0和OpenCV2的手势识别(自制数据集)
+![Download Code](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/archive/refs/heads/main.zip)
 
 
 ![image](https://github.com/Xhs753/TF_Opencv2_Gesture_recognition/blob/main/IMG_20210824_185701.jpg?raw=true)
