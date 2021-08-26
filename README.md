@@ -14,12 +14,15 @@
 -- 声明：图片以及数据集的代码均为本人原创
 ### 食用方法
 1. 训练开始前请务必将代码中的文件路径放正确！！
-2. 使用python运行train.py进行训练模型
-3. 使用python运行CV.py以打开实时识别
+2. train.py和CV.py在Main文件夹中
+3. 使用python运行train.py进行训练模型
+4. 使用python运行CV.py以打开实时识别
 5. 如果结果不准确可以考虑代码中的epochs的次数(建议：100)
 
- 安装TF
- ` pip install tensorflow `
+### 安装TF
+ ```pip install tensorflow ```
+### Install OpenCV
+``` pip install opencv-python==4.1.2```
 #### 路径导致的错误解决方案
 如果在您的计算机上有D盘请务必按照代码中的文件路径创建！！（盘名可以随意更改！但是文件路径一定要写正确！！
  训练图片的入口：
