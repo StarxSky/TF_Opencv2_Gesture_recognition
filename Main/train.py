@@ -169,7 +169,7 @@ def train_model(train_data):
     ]
     # 只要在model.fit训练模型里面加上 callbacks=callbacks  这个参数,那在训练模型的时候就会按  照我们设计的回调函数来保存模型
     # 模型训练
-    # 看这里看这里！！！network.load_weights('E:\\aiFile\\model_save\\gesture_recognition_model\\gestureModel_one.h5')
+    # 看这里看这里！！！n
     # print("载入已训练权重成功")
     network.fit(train_data, epochs=5, callbacks=callbacks)  # 因为是dataset数据集是个元组自带标签所以不用分x和y了
     # network.evaluate(test_data)
